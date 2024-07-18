@@ -5,8 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["MERN STACK developer", "Food-delivery-app", "frontend", "backend"],
+  "author": "Meet Patel",
   "license": "ISC",
   "description": "",
   "dependencies": {
