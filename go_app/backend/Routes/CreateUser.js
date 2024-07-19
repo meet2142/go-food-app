@@ -106,7 +106,7 @@ router.post('/getlocation', async (req, res) => {
       let long = req.body.latlong.long
       console.log(lat, long)
       let location = await axios
-          .get("https://maps.googleapis.com/maps/api/geocode/json?address" + lat + "+" + long + "&key=AIzaSyDYp1te-bQEhWE9P9yehRE3biB7LpSEh4U")
+          .get("https://maps.googleapis.com/maps/api/geocode/json?address" + lat + "+" + long + "&key={process.env.KEY}")
           .then(async res => {
               // console.log(`statusCode: ${res.status}`)
               console.log(res.data.results)
